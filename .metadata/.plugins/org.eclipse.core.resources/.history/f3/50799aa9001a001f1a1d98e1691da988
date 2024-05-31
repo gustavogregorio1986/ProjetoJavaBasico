@@ -1,0 +1,61 @@
+package projetoEstudo0.entity;
+
+import java.util.List;
+
+public class Cliente {
+
+	private String nomeCliente;
+	private String emailCliente;
+	private String cpf;
+	private String sexo;
+	private Endereco endereco;
+	private List<Telefone> Telefones;
+	
+	
+	public Cliente() {
+	}
+	
+	public Cliente(String nomeCliente, String emailCliente, String cpf, String sexo) {
+		super();
+		this.nomeCliente = nomeCliente;
+		this.emailCliente = emailCliente;
+		this.cpf = cpf;
+		this.sexo = sexo;
+	}
+
+
+
+	public String getNomeCliente() {
+		return nomeCliente;
+	}
+
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
+
+	public String getEmailCliente() {
+		return emailCliente;
+	}
+
+	public void setEmailCliente(String emailCliente) {
+		this.emailCliente = emailCliente;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	
+	
+}

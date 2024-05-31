@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.EnumSet"/>
+    <fullyQualifiedTypeName name="projetoEstudo0.entity.Cliente"/>
+    <fullyQualifiedTypeName name="java.lang.Enum"/>
+    <fullyQualifiedTypeName name="projetoEstudo0.Enum.EnumSexo"/>
+    <fullyQualifiedTypeName name="projetoEstudo0.entity.Telefone"/>
+    <fullyQualifiedTypeName name="projetoEstudo0.Enum.EnumTipo"/>
+    <fullyQualifiedTypeName name="projetoEstudo0.entity.Endereco"/>
+    <fullyQualifiedTypeName name="control.ControlaNumero"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="control.Calculadora"/>
+    <fullyQualifiedTypeName name="entity.Funcionario"/>
+    <fullyQualifiedTypeName name="control.ControlaFuncionario"/>
+    <fullyQualifiedTypeName name="javax.swing.text.TabableView"/>
+    <fullyQualifiedTypeName name="control.Tabuada"/>
+    <fullyQualifiedTypeName name="java.text.BreakIterator"/>
+    <fullyQualifiedTypeName name="entity.Mes"/>
+    <fullyQualifiedTypeName name="control.ControlaMes"/>
+    <fullyQualifiedTypeName name="entity.pessoa"/>
+    <fullyQualifiedTypeName name="entity.Pessoa"/>
+    <fullyQualifiedTypeName name="control.ControlaPessoa"/>
+    <fullyQualifiedTypeName name="java.lang.EnumConstantNotPresentException"/>
+    <fullyQualifiedTypeName name="entity.Aluno"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="entity.Produto"/>
+    <fullyQualifiedTypeName name="control.ControlaProduto"/>
+    <fullyQualifiedTypeName name="entity.Estudo"/>
+    <fullyQualifiedTypeName name="control.ControlaEstudo"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="entity.Cliente"/>
+</qualifiedTypeNameHistroy>

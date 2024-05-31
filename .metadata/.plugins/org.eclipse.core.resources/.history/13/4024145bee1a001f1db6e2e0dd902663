@@ -1,0 +1,17 @@
+package control;
+
+import entity.Estudo;
+
+public class ControlaEstudo {
+
+	public void ValoresNumericos(Estudo estudo) {
+		switch (estudo.getNumero()) {
+		case 1: {
+			System.out.println("Numero 1");
+			yield 1;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + estudo.getNumero()) {
+		}
+	}
+}

@@ -1,0 +1,18 @@
+package main;
+
+import entity.Mes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Mes mes = new Mes();
+		
+		mes.setNumero(78);
+		
+		System.out.println("Numero: " + mes.getNumero());
+		
+		
+		
+	}
+}

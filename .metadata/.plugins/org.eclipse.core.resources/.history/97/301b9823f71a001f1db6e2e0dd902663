@@ -1,0 +1,47 @@
+package entity;
+
+public class Pessoa {
+
+	private String nomePessoa;
+	private String idade;
+	private String sexo;
+	
+	public Pessoa() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Pessoa(String nomePessoa, String idade, String sexo) {
+		this.nomePessoa = nomePessoa;
+		this.idade = idade;
+		this.sexo = sexo;
+	}
+
+	@Override
+	public String toString() {
+		return "pessoa [nomePessoa=" + nomePessoa + ", idade=" + idade + ", sexo=" + sexo + "]";
+	}
+
+	public String getNomePessoa() {
+		return nomePessoa;
+	}
+
+	public void setNomePessoa(String nomePessoa) {
+		this.nomePessoa = nomePessoa;
+	}
+
+	public String getIdade() {
+		return idade;
+	}
+
+	public void setIdade(String idade) {
+		this.idade = idade;
+	}
+
+	public String getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+}

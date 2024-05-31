@@ -1,0 +1,18 @@
+package main;
+
+import control.Calculadora;
+import entity.Estudo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Estudo estudo = new Estudo();
+		estudo.setNumero1(32);
+		estudo.setNumero2(43);
+		
+		Calculadora calculadora = new Calculadora();
+		System.out.println("A soma é: " + calculadora.Somar(estudo));
+		
+	}
+}

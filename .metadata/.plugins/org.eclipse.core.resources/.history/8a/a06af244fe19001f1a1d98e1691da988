@@ -1,0 +1,19 @@
+package main;
+
+import entity.Cliente;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		
+		cliente.setNomeCliente("pedro");
+		cliente.setEmailCliente("pedro@gmail.comm");
+		cliente.getSexo("Masculino");
+		
+		System.out.console("Nome do cliente: ", cliente.getNomeCliente());
+		System.out.console("Email do cliente: ", cliente.getEmailCliente());
+		System.out.console("Sexo: ", cliente.getSexo());
+	}
+}

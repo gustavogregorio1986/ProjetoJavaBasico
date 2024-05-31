@@ -1,0 +1,37 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import projetoEstudo0.Enum.EnumSexo;
+import projetoEstudo0.Enum.EnumTipo;
+import projetoEstudo0.entity.Cliente;
+import projetoEstudo0.entity.Endereco;
+import projetoEstudo0.entity.Telefone;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		cliente.setNomeCliente("pedro");
+		cliente.setEmailCliente("pedro@gmail.com");
+		cliente.setCpf("1234567890");
+		cliente.setSexo(EnumSexo.Masculino);
+		
+		System.out.println("Nome do Cliente: " + cliente.getNomeCliente());
+		System.out.println("Email do Cliente: " + cliente.getEmailCliente());
+		System.out.println("Cpf do Cliente: " + cliente.getCpf());
+		System.out.println("Sexo do Cliente: " + cliente.getSexo());
+		
+		cliente.getEndereco().setLogradourto("Rua x");
+		cliente.getEndereco().setComplemento("numero 45");
+		cliente.getEndereco().setBairro("flamengo");
+		cliente.getEndereco().setCidade("Rio de Janeiro");
+		cliente.getEndereco().setEstado("Rio de Janeiro");
+		
+		List<Telefone> listaTel = new ArrayList<Telefone>();
+		
+		listaTel.add(new Telefone(EnumTipo.Celular,"2343566555"));
+	}
+}

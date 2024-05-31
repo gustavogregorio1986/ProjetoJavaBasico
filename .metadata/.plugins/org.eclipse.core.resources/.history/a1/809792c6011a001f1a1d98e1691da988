@@ -1,0 +1,82 @@
+package projetoEstudo0.entity;
+
+import java.util.List;
+
+import projetoEstudo0.Enum.EnumSexo;
+
+public class Cliente {
+
+	private String nomeCliente;
+	private String emailCliente;
+	private String cpf;
+	private EnumSexo sexo;
+	private Endereco endereco;
+	private List<Telefone> Telefones;
+	
+	
+	public Cliente() {
+	}
+	
+	public Cliente(String nomeCliente, String emailCliente, String cpf, String sexo) {
+		this.nomeCliente = nomeCliente;
+		this.emailCliente = emailCliente;
+		this.cpf = cpf;
+		this.sexo = sexo;
+	}
+
+	@Override
+	public String toString() {
+		return "Cliente [nomeCliente=" + nomeCliente + ", emailCliente=" + emailCliente + ", cpf=" + cpf + ", sexo="
+				+ sexo + ", endereco=" + endereco + "]";
+	}
+
+	public String getNomeCliente() {
+		return nomeCliente;
+	}
+
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
+
+	public String getEmailCliente() {
+		return emailCliente;
+	}
+
+	public void setEmailCliente(String emailCliente) {
+		this.emailCliente = emailCliente;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+
+	public List<Telefone> getTelefones() {
+		return Telefones;
+	}
+
+	public void setTelefones(List<Telefone> telefones) {
+		Telefones = telefones;
+	}
+	
+	
+}

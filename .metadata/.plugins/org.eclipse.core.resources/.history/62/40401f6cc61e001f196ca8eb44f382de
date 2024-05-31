@@ -1,0 +1,14 @@
+package control;
+
+import entity.Estudo;
+
+public class ControlaEstudo {
+
+	public void VogalOrNaoVogal(Estudo estudo) {
+	  if(estudo.getPalavra().equals('a') && estudo.getPalavra().equals('e') && estudo.getPalavra().equals('i') && estudo.getPalavra().equals('o') && estudo.getPalavra().equals('u')) {
+		  System.out.println("a palavra  tem " + estudo.getPalavra());
+	  }else {
+		  System.out.println("a palavra não tem " + estudo.getPalavra());
+	  }
+	}
+}

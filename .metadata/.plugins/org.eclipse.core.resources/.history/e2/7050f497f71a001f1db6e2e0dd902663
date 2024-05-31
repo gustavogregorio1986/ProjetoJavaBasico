@@ -1,0 +1,23 @@
+package main;
+
+import control.ControlaPessoa;
+import entity.Pessoa;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Pessoa pessoa = new Pessoa();
+		pessoa.setNomePessoa("Pedro");
+		pessoa.setIdade(34);
+		pessoa.setSexo("masculino");
+		
+		System.out.println("Nome: " + pessoa.getNomePessoa());
+		System.out.println("Idade: " + pessoa.getIdade());
+		System.out.println("Sexo: " + pessoa.getSexo());
+		
+		ControlaPessoa controlaPessoa = new ControlaPessoa();
+		controlaPessoa.ControlaIdade(pessoa);
+		
+	}
+}

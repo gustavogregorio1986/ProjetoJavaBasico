@@ -1,0 +1,21 @@
+package main;
+
+import control.ControlaEstudo;
+import entity.Estudo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Estudo estudo = new Estudo();
+		estudo.setNumero(43);
+		
+		System.out.println("Numwero; " + estudo.getNumero());
+		
+		ControlaEstudo controlaEstudo = new ControlaEstudo();
+		String[] args2 = new String[args.length + 1];
+		System.arraycopy(args, 0, args2, 0, args.length);
+		args2[args.length] = controlaEstudo;
+		
+	}
+}

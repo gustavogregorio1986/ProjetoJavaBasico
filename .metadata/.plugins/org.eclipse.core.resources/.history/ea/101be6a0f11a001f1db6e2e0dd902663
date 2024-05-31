@@ -1,0 +1,21 @@
+package control;
+
+import entity.Mes;
+
+public class ControlaMes {
+
+	public void NumeroMes(Mes mes) {
+		switch (mes.getNumero()) {
+		  case 1: {
+			System.out.println("Janeiro");
+			break;
+		  }
+		  case 2: {
+				System.out.println("Janeiro");
+				break;
+		  }
+		  default:
+			throw new IllegalArgumentException("Unexpected value: " + mes.getNumero());
+		  }
+	}
+}

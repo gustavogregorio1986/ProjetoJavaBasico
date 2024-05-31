@@ -1,0 +1,12 @@
+package control;
+
+import entity.Aluno;
+
+public class ControlaAluno {
+
+	public Double CalcularAluno(Aluno aluno) {
+		Double calculo = 0.0;
+		
+		return calculo;
+	}
+}

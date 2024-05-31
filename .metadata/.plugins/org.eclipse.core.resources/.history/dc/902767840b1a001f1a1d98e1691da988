@@ -1,0 +1,14 @@
+package main;
+
+import entity.Estudo;
+
+public class Mian {
+
+	public static void main(String[] args) {
+		
+		Estudo estudo = new Estudo();
+		
+		
+		
+	}
+}

@@ -1,0 +1,20 @@
+package control;
+
+import entity.Estudo;
+
+public class Calculadora {
+
+	public Integer Somar(Estudo estudo) {
+		Integer somar = 0;
+		somar = estudo.getNumero1() + estudo.getNumero2();
+		return somar;
+	}
+	
+	public Integer subtracao(Estudo estudo) {
+		Integer subtracao = 0;
+		subtracao = estudo.getNumero1() - estudo.getNumero2();
+		return subtracao;
+	}
+	
+	
+}
